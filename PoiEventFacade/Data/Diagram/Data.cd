@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="PoiEventNetwork.Data.Abstract.AbsEntity" Collapsed="true">
+    <Position X="7.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAgAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\Abstract\AbsEntity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PoiEventNetwork.Data.Abstract.AbsTagAble" Collapsed="true">
+    <Position X="4" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAEAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\Abstract\AbsTagAble.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PoiEventNetwork.Data.Context.DataContext" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="11" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACIAAAAAAAQAAAACABAAMgAAAEAAAAAAAQAAAAA=</HashCode>
+      <FileName>Data\Context\DataContext.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="PoiEventNetwork.Data.Coordinate" Collapsed="true">
+    <Position X="11.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAKAAAAAAgAAAAAAAAAgAAIAAAAAAAAAAAiA=</HashCode>
+      <FileName>Data\Coordinate.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="PoiEventNetwork.Data.Event" Collapsed="true">
+    <Position X="14" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAiAAAIAAAAACAAIAgCQAAAAAAAABEAAAQQAAAAA=</HashCode>
+      <FileName>Data\Event.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PoiEventNetwork.Data.Message" Collapsed="true">
+    <Position X="0.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAgAAAIAAAAAAAAAAAAQAAgAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>Data\Message.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PoiEventNetwork.Data.Tag" Collapsed="true">
+    <Position X="7.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAIAAAAAAgAAAACAAAAAAAIQAAAAACAAAAiA=</HashCode>
+      <FileName>Data\Tag.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PoiEventNetwork.Data.User" Collapsed="true">
+    <Position X="9.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAkAAAIACEAAAAAAAAAgAAAAAAAQAAACAAQAAAAg=</HashCode>
+      <FileName>Data\User.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PoiEventNetwork.Data.Exception.AuthorizationException" Collapsed="true">
+    <Position X="13.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Data\Exception\AuthorizationException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PoiEventNetwork.Data.POI.BasePoi" Collapsed="true">
+    <Position X="4" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAIAAAAAAgAAAAAQAAAAAAIQAAAAAAAAAAiA=</HashCode>
+      <FileName>Data\POI\BasePoi.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PoiEventNetwork.Data.POI.CityPoi" Collapsed="true">
+    <Position X="5" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAIAAAAAAAAAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>Data\POI\CityPoi.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PoiEventNetwork.Data.POI.NgonPoi" Collapsed="true">
+    <Position X="2.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAgAAAAAAAAAAAAIAAAAAAAAAAAiA=</HashCode>
+      <FileName>Data\POI\NgonPoi.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="PoiEventNetwork.Data.POI.NormPoi" Collapsed="true">
+    <Position X="5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAIAAAAABAAIAAAAAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\POI\NormPoi.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PoiEventNetwork.Data.Tools.ExceptionHelper" Collapsed="true">
+    <Position X="15.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Data\Tools\ExceptionHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PoiEventNetwork.Data.Tools.GenericSearcher" Collapsed="true">
+    <Position X="11" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAoAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\Tools\GenericSearcher.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PoiEventNetwork.Facade.Facade" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgEAAgAAAyAIABAEKABAAAoAIECAEAEAAIBEAAAAACQ=</HashCode>
+      <FileName>Facade\Facade.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="PoiEventNetwork.Migrations.InitialCreate" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="11" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAMAAAAAAAAAAAAAAAAAAAAAAAAAAQEAAAAAI=</HashCode>
+      <FileName>Migrations\201309301343277_InitialCreate.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="PoiEventNetwork.Migrations.Configuration" Collapsed="true">
+    <Position X="11" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Migrations\Configuration.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PoiEventNetwork.Resolver" Collapsed="true">
+    <Position X="8" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Resolver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="PoiEventNetwork.Data.Interface.IDataContext" Collapsed="true">
+    <Position X="12.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAACIAAEAAAAQAAAACABAAIgAAAEAAAAAAAQAAAAA=</HashCode>
+      <FileName>Data\Interface\IDataContext.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="PoiEventNetwork.Facade.Interface.IPoiEventFacade" Collapsed="true">
+    <Position X="7.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgEAAAAAAwAIABAEKABAAAoAIECAEAEAAIBEAAAAACQ=</HashCode>
+      <FileName>Facade\Interface\IPoiEventFacade.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="PoiEventNetwork.Data.Enums.Rights" Collapsed="true">
+    <Position X="13.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAECAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Data\Enums\Rights.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Consolas" Size="9" />
+</ClassDiagram>
